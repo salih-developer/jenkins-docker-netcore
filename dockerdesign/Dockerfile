@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
 
-COPY dockerdesign/*.csproj ./dockerdesign/
+COPY *.csproj ./
 RUN dotnet restore
 
 # copy everything else and build app
