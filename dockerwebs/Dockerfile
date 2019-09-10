@@ -1,37 +1,23 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
+#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+#For more information, please see https://aka.ms/containercompat 
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1903 AS base
 WORKDIR /app
+EXPOSE 80
+EXPOSE 443
 
-COPY *.csproj ./
-RUN dotnet restore
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1903 AS build
+WORKDIR /src
+COPY ["dockerwebs/dockerwebs.csproj", "dockerwebs/"]
+RUN dotnet restore "dockerwebs/dockerwebs.csproj"
+COPY . .
+WORKDIR "/src/dockerwebs"
+RUN dotnet build "dockerwebs.csproj" -c Release -o /app
 
-# copy everything else and build app
-COPY /. ./
+FROM build AS publish
+RUN dotnet publish "dockerwebs.csproj" -c Release -o /app
+
+FROM base AS final
 WORKDIR /app
-RUN dotnet publish -c Release -o out
-
-
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS runtime
-WORKDIR /app
-COPY --from=build /app/out ./
+COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "dockerwebs.dll"]
-
-#FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS base
-#WORKDIR /app
-#EXPOSE 80
-#EXPOSE 443
-#
-#FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
-#WORKDIR /src
-#COPY ["dockerwebs/dockerwebs.csproj", "dockerwebs/"]
-#RUN dotnet restore "dockerwebs/dockerwebs.csproj"
-#COPY . .
-#WORKDIR "/src/dockerwebs"
-#RUN dotnet build "dockerwebs.csproj" -c Release -o /app
-#
-#FROM build AS publish
-#RUN dotnet publish "dockerwebs.csproj" -c Release -o /app
-#
-#FROM base AS final
-#WORKDIR /app
-#COPY --from=publish /app .
-#ENTRYPOINT ["dotnet", "dockerwebs.dll"]

@@ -1,0 +1,14 @@
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\bin\Debug\netcoreapp2.2\dockerdesign.deps.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\bin\Debug\netcoreapp2.2\dockerdesign.runtimeconfig.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\bin\Debug\netcoreapp2.2\dockerdesign.runtimeconfig.dev.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\bin\Debug\netcoreapp2.2\dockerdesign.dll
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\bin\Debug\netcoreapp2.2\dockerdesign.pdb
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.csprojAssemblyReference.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.csproj.CoreCompileInputs.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.RazorAssemblyInfo.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.RazorAssemblyInfo.cs
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.AssemblyInfoInputs.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.AssemblyInfo.cs
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.RazorTargetAssemblyInfo.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.dll
+C:\Users\salihbicakci\source\repos\Docker-POS\dockerdesign\obj\Debug\netcoreapp2.2\dockerdesign.pdb

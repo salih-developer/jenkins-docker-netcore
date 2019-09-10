@@ -1,0 +1,14 @@
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.csproj.CoreCompileInputs.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.AssemblyInfoInputs.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.AssemblyInfo.cs
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\bin\Debug\netcoreapp2.2\dockersecurity.deps.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\bin\Debug\netcoreapp2.2\dockersecurity.runtimeconfig.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\bin\Debug\netcoreapp2.2\dockersecurity.runtimeconfig.dev.json
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\bin\Debug\netcoreapp2.2\dockersecurity.dll
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\bin\Debug\netcoreapp2.2\dockersecurity.pdb
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.RazorAssemblyInfo.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.RazorAssemblyInfo.cs
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.RazorTargetAssemblyInfo.cache
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.dll
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.pdb
+C:\Users\salihbicakci\source\repos\Docker-POS\dockersecurity\obj\Debug\netcoreapp2.2\dockersecurity.csprojAssemblyReference.cache

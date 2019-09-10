@@ -1,14 +1,8 @@
 version: '3.4'
 
 services:
-  dockerweb:
-    image: ${DOCKER_REGISTRY-}dockerweb
+  dockerwebs:
+    image: ${DOCKER_REGISTRY-}dockerwebs
     build:
       context: .
-      dockerfile: dockerweb\Dockerfile
-
-  dockerdesign:
-     image:${DOCKER_REGISTRY-}dockerdesign
-     build: 
-      context: .
-      dockerfile: dockerdesign\Dockerfile
+      dockerfile: dockerwebs\Dockerfile
