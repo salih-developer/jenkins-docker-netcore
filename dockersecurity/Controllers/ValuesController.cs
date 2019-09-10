@@ -18,7 +18,7 @@ namespace dockersecurity.Controllers
         [EnableCors("AllowAll")]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new JsonResult(new { username = "admin", password = "12345" });
+            return new JsonResult(new { username = "admin", password = "12345" ,name="salih"});
         }
 
         // GET api/values/5
