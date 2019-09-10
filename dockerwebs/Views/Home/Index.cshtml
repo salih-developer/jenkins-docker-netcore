@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+    $(document).ready(function () {
+        $("#8085").click(function () {
+            $.ajax({
+                url: "http://localhost:8085/api/values", success: function (result) {
+                    $("#div1").text(result);
+                }
+            });
+        });
+         $("#8086").click(function () {
+            $.ajax({
+                url: "http://localhost:8086/api/values", success: function (result) {
+                    $("#div2").text(result);
+                }
+            });
+         });
+         $("#8087").click(function () {
+            $.ajax({
+                url: "http://localhost:8087/api/values", success: function (result) {
+                    $("#div3").text(result);
+                }
+            });
+        });
+    });
+</script>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+
+<button id="8085">8085</button>
+<button id="8086">8086</button>
+<button id="8087">8087</button>
