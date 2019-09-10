@@ -5,7 +5,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore "/dockerdesign/dockerdesign.csproj"
+RUN dotnet restore "dockerdesign.csproj"
 
 COPY . .
 WORKDIR "/src/dockerdesign"
